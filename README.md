@@ -16,10 +16,14 @@ Steps to Run
 
 
 Method
-1.Image Segmentaion for Empty vs non empty class was done using Transfer Learning. Val_acc of        88% was achieved 
+1.Image Segmentaion for Empty vs non empty class was done using Transfer Learning. Val_acc of  88% was achieved 
+
 2.Tensorflow Object Detection was used to detect the ITEM_TAG and PRICE_TAG. Accuracy of these    models were excellent with above 98% correct segmentation.
+
 3.Image resize and cropping techniques were used to extract the TIME and LOCATION segment from the image.
+
 4.Image processing techniques such as Masking,Blurring,Erosion and Dilation were used to improve the clarity for text recognisation.
+
 5.Google’s PyTesseract Model was used to identify text from  ITEM_TAG, PRICE_TAG ,TIME and LOCATION segments. Python’s “smptlib” library was used to send the mails.
 
 
